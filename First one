@@ -1,1 +1,22 @@
+<!doctype html>
 
+<html>
+        <head>
+                <title>Primeiro Site</title>
+        </head>
+
+        <body>
+            <h1>
+                Primeiro
+            </h1>
+            <h2>
+                Segundo título
+            </h2>
+            <p>
+                Parágrafo feito pela tag p 
+            </p>
+            <p>
+                Segundo parágrafo para entender Tag p <b> Esta é a tag B (bold) </b>
+            </p>
+        </body>
+</html>
