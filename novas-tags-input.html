@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+   <head>
+
+    <title>Novas tags input HTML5</title>
+    <meta charset="utf-8">
+
+   </head>
+   <body>
+
+      <form>
+         <!--Associar label com os elementos-->
+        <label for="nome">Nome</label> <!--usando o for na tag, com a div -->
+        <input type="text" id="nome" autofocus> <!--a tag autofocus deixa o lugar de imput em evidencia quando atualizada a página-->
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required> <!--required serve para mostrar ao usuério que é obrigatório o preenchimento daquele campo-->
+        <br><br>
+
+        <label for="numero">Número</label>
+        <input type="number" id="numero" min="5" max="10" step="2">
+        <!--min e max vão delimitar a tag number e step vai dizer que input varia a cada 2 números-->
+        <br><br>
+
+        <label for="url">Url</label>
+        <input type="url" id="url"  placeholder="ex: http://www."> <!--no imput é necessario começar com http e o placeholder irá mostrar um exemplo no input para o usuário saber como ele deve preencher-->
+        <br><br>
+
+        <label for="pesquisa">Pesquisa</label>
+        <input type="search" id="pesquisa" placeholder="ex: digite">
+        <br><br>
+
+        <label for="range">Range</label>
+        <input type="range" id="range" min="1" max="10" value="5">
+        <br><br> <!--range is a kind of input which you can use a bar to choose the numbar. Value here its placing the bottom in the value defined-->
+
+        <label for="data">Data</label>
+        <input type="date" id="data">
+        <br><br>
+
+        <label for="cor">Cor</label>
+        <input type="color" id="cor" blur="true">
+        <br><br>
+
+
+
+
+
+        <!--Novos Inputs e atributos HTML 5-->
+        
+        <input type="submit" value="enviar">
+           
+
+      </form>
+
+   </body>
+
+
+
+</html>
