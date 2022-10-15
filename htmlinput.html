@@ -1,0 +1,111 @@
+<DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="UTF-8">
+     <title>Input types</title>
+   </head>
+   <body>
+    <h1>Input types</h1>
+
+    <input type="button" value="Click me" onclick="msg()"/>
+
+    <button onclick="alert('Are you sure you want to continue?')">
+           <img src="https://yourserver.com/button_img.jpg"
+           alt="Submit the form" height="64" width="64">
+    </button>
+    <h3>Checkbox</h3>
+    <p>Checkbox type allows you to select or deselect one or more options.</p>
+    <input type="checkbox" id="dog" name="dog" value="Dog">
+    <label for="dog">I like dogs</label>
+    <input type="checkbox" id="cat" name="cat" value="Cat">
+    <label for="cat">I like cats</label>
+    <br>
+    <h3>Radio</h3>
+    <p>Displays a radio botton, allowing only a single value to be selected.</p>
+    <input type="radio" id="light" name="theme" value="Light"> 
+    <label for="light">Light</label> 
+    <input type="radio" id="dark" name="theme" value="Dark"> 
+    <label for="dark">Dark</label> 
+    <br>
+    <h3>Submit</h3>
+    <p>For submitting all values from an HTML form to a server.</p>
+    <form action="myserver.com" method="POST">
+        <input type="submit" value="Submit"/>
+    </form>
+   <br>
+   <h3>Text</h3>
+   <p>Defines a basic single-line text field that a user can enter text into</p>
+   <label for="fname">First name:</label>
+   <input type="Text" id="fname" name="fname">
+   <input type="button" value="Submit" onclick="alert('Well done')">
+   <br>
+   <h3>Password</h3>
+   <label for="pwd">Password:</label>
+   <input type="password" id="pwd" name="pwd">
+   <br>
+   <h3>Date</h3>
+   <label for="dob">Date of Birth:</label>
+   <input type="date" id="dob" name="date of birth">
+   <br>
+   <h3>Datetime-local</h3>
+   <label for="birthdaytime">Birthday (date and time):</label>
+   <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+   <br>
+   <h3>Email</h3>
+   <label for="email">Enter your email:</label>
+   <input type="email" id="email" name="email">
+   <br>
+   <h3>File</h3>
+   <label for="myfile">Select a file:</label>
+   <input type="file" id="myfile" name="myfile">
+   <br>
+   <h3>Hidden</h3>
+   <input type="hidden" id="custId" name="custId" value="3487">
+   <br>
+   <h3>Image</h3>
+   <input type="image" src="submit_img.png" alt="Submit" width="48" height="48">
+   <br>
+   <h3>Number</h3>
+   <input type="number" id="quantity" name="quantity" min="1" max="5">
+   <br>
+   <h3>Range</h3>
+   <label for="volume">Volume:</label>
+   <input type="range" id="range" name="volume" min="0" max="10">
+   <br>
+   <h3>Reset</h3>
+   <label for="gsearch">Search in Google:</label>
+   <input type="search" id="gsearch" name="gsearch">
+   <br>
+   <h3>Time</h3>
+   <label for="appt">Select a time:</label>
+   <input type="time" id="appt" name="appt">
+   <br>
+   <h3>Tel</h3>
+   <label for="phone">Enter your phone number:</label>
+   <input type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}">
+   <br>
+   <h3>Url</h3>
+   <label for="homepage">Add your homepage:</label>
+   <input type="url" id="homepage" name="homepage">
+   <br>
+   <h3>Week</h3>
+  <label for="week">Select a week:</label>
+  <input type="week" id="week" name="week">
+  <br>
+  <h3>Month</h3>
+  <label for="bdaymonth">Birthday (month and year)</label>
+  <input type="month" id="bdaymonth" name="bdaymonth" min="1930-01" value="2000-01">
+
+
+</body> 
+
+
+
+
+
+
+
+
+
+
+ </html>
